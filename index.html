@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apex Detailing</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+    <h1>APEX DETAILING</h1>
+    <p>Prémium autóápolás. Tökéletes megjelenés.</p>
+
+    <nav class="nav">
+        <a href="#services">Szolgáltatások</a>
+        <a href="#contact">Kapcsolat</a>
+        <a href="#contact" class="cta-button">Kérj ajánlatot</a>
+    </nav>
+</header>
+
+
+
+
+    <main>
+        <h2>Szolgáltatásaink</h2>
+
+        <section class="services" id="services"></section>
+            <article>
+                <h3>Külső tisztítás</h3>
+                <p>Alapos tisztítás és ápolás.</p>
+                <p>8 000 Ft-tól</p>
+            </article>
+
+            <article>
+                <h3>Belső tisztítás</h3>
+                <p>Gondos tisztítás az utastérben.</p>
+                <p>12 000 Ft-tól</p>
+            </article>
+
+            <article>
+                <h3>Prémium csomag</h3>
+                <p>Komplex külső és belső ápolás.</p>
+                <p>25 000 Ft-tól</p>
+            </article>
+        </section>
+
+        
+<footer id="contact">
+    <h2>Kérj ajánlatot!</h2>
+    <p>Töltsd ki az űrlapot, és jelezd, milyen autóápolásra van szükséged.</p>
+
+    <form class="contact-form" id="contactForm">
+        <label for="name">Neved</label>
+        <input type="text" id="name" name="name"
+               placeholder="Pl. Kovács Péter" required>
+
+        <label for="email">E-mail-címed</label>
+        <input type="email" id="email" name="email"
+               placeholder="pelda@email.com" required>
+
+        <label for="message">Miben segíthetünk?</label>
+        <textarea id="message" name="message"
+                  placeholder="Írd le, milyen szolgáltatást szeretnél..."
+                  rows="5" required></textarea>
+
+        <button type="submit">Ajánlatot kérek</button>
+        <p id="formMessage" aria-live="polite"></p>
+    </form>
+</footer>
+
+    </main>
+<script src="script.js"></script></body>
+</html>
